@@ -1,0 +1,38 @@
+.buttons {
+  margin-top: 10px;
+}
+button {
+  padding: 5px;
+  margin-right: 5px;
+  background-color: white;
+  border: 1px solid rgb(97, 94, 94);
+}
+button:hover {
+  background-color: black;
+  border: 0;
+  color: white;
+}
+.button_active {
+  background-color: black;
+  border: 0;
+  color: white;
+}
+.container {
+  text-align: center;
+}
+.projects {
+  max-width: 900px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-rows: 1fr auto;
+}
+figure {
+  column-count: 3;
+  column-gap: 10px;
+}
+.projects__img {
+  width: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
